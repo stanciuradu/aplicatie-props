@@ -1,0 +1,21 @@
+.furniture-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.furniture-item img {
+    width: 10rem;
+    margin-right: 2rem;
+}
+
+.furniture-item .container {
+    display: flex;
+    flex-direction: column;
+    border-style: double;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    border-color: brown;
+    background-color: rgb(233, 216, 194);
+    font-weight: bold;
+}
