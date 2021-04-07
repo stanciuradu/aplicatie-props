@@ -4,10 +4,12 @@ import Header from './components/Header';
 import './components/Header.css';
 import FurnitureItem from './components/FurnitureItem';
 import './components/FurnitureItem.css';
+// se importa componenetele create si fisierele css
 
 function App() {
   return (
     <div className="App">
+      {/* se instantiaza componentele */}
       <Header/>
       <FurnitureItem 
         name='Canapea' 
