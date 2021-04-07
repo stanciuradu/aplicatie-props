@@ -7,13 +7,11 @@ function FurnitureItem(props) {
     return (
         <div className='furniture-item'>
             <img src={src} alt="random"/>
-            <div className='container'>
-                <p>{name}</p>
-                <p>{price}</p>
-                <p>{model}</p>
-            </div>
-           
-            
+                <div className='container'>
+                    <p>{name}</p>
+                    <p>{price}</p>
+                    <p>{model}</p>
+                </div> 
         </div>
     )
 }
